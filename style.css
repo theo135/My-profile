@@ -1,0 +1,64 @@
+body{ 
+	font-family: monospace;
+text-align: center;
+background-color: white;
+}
+h1{
+	font-family: fantasy;
+}
+h3{
+	font-family: fantasy;
+}
+a{	text-decoration: none;
+	background-color: #798196
+	color:white;
+}
+
+a:hover{
+	color: white;
+}
+p{
+	word-spacing: 3px;
+	line-height: 150%;
+	margin: 25px;
+	}
+.container{
+	width: 1200px;
+	margin: 40px auto;}
+
+@media (max-width: 960px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 880px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+.card-white{
+	background-color:rgba(119,110,110,0.5);
+	padding:20px;
+	margin: 25px 250px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(1,1,1,0.4);
+}
+.imgrec{
+	height: 160px;
+	width: 140px;
+	border-radius: 15%;}
+
+.logo {
+	color: black;
+	font-size: 40px;
+}
+.logo:hover{
+	color: white;
+}
